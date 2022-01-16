@@ -30,7 +30,7 @@ public class boj1181 {
 
         sb.append(arr[0]).append('\n');
         for (int i = 1; i < N; i++) {
-            if (!arr[i].equals(arr[i - 1])) {
+            if (!arr[i].equals(arr[i-1])) {
                 sb.append(arr[i]).append('\n');
             }
         }
