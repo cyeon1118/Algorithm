@@ -17,7 +17,7 @@ public class boj17608 {
 
         for (int j = N-1 ; j >= 0 ; j--) {
             if(stick[N-1] < stick[j]) {
-                if (max < stick[j]){
+                if (max < stick[j]) {
                     cnt++;
                     max = stick[j];
                 }
