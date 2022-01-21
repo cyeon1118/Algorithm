@@ -11,9 +11,9 @@ public class boj1357 {
         int X = Integer.parseInt(st.nextToken());
         int Y = Integer.parseInt(st.nextToken());
 
-        System.out.println(Rex(Rex(X) + Rex(Y)));
+        System.out.println(rev(rev(X) + rev(Y)));
     }
-    public static int Rex(int num){
+    public static int rev(int num){
         String str = String.valueOf(num);
         int[] reArr = new int[str.length()];
 
