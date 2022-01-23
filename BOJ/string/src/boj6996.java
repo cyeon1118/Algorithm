@@ -4,21 +4,23 @@ import java.util.Scanner;
 public class boj6996 {
     private static boolean solveAnagrams(String first, String second) {
         if (first.length() == second.length()) {
-            String[] str1Arr = new String[first.length()];
-            String[] str2Arr = new String[second.length()];
+            String[] firstArr = new String[first.length()];
+            String[] secondArr = new String[second.length()];
 
-            for (int j = 0 ; j < str1Arr.length ; j++) {
-                str1Arr[j] = String.valueOf(first.charAt(j));
-                str2Arr[j] = String.valueOf(second.charAt(j));
+            for (int i = 0 ; i < firstArr.length ; i++) {
+                firstArr[i] = String.valueOf(first.charAt(i));
+                secondArr[i] = String.valueOf(second.charAt(i));
             }
-            Arrays.sort(str1Arr);
-            Arrays.sort(str2Arr);
 
-            for (int l = 0 ; l < str1Arr.length ; l++) {
-                if (!str1Arr[l].equals(str2Arr[l])) {
+            Arrays.sort(firstArr);
+            Arrays.sort(secondArr);
+
+            for (int j = 0 ; j < firstArr.length ; j++) {
+                if (!firstArr[j].equals(secondArr[j])) {
                     return false;
                 }
             }
+
             return true;
         }
         else {
