@@ -15,7 +15,7 @@ public class boj4673 {
         Collections.sort(arr);
 
         for (int i = 1; i < 10001; i++) {
-            if(!arr.contains(i)){
+            if (!arr.contains(i)) {
                 sb.append(i).append("\n");
             }
         }
