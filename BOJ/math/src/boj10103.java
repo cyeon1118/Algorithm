@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 public class boj10103 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
 
         int c, s;
@@ -18,7 +18,7 @@ public class boj10103 {
             c = Integer.parseInt(st.nextToken());
             s = Integer.parseInt(st.nextToken());
 
-            if (c < s){
+            if (c < s) {
                 cScore -= s;
             }
             else if (c > s) {
