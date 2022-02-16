@@ -22,6 +22,7 @@ public class boj10815 {
         for (int i = 0; i < N; i++) {
             nNum[i] = Integer.parseInt(st.nextToken());
         }
+
         Arrays.sort(nNum);
 
         M = Integer.parseInt(br.readLine());
