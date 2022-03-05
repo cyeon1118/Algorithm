@@ -82,7 +82,8 @@ public class boj10866 {
     static int empty() {
         if (deque.isEmpty()) {
             return 1;
-        } else {
+        }
+        else {
             return 0;
         }
     }
