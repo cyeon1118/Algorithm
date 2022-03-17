@@ -6,8 +6,8 @@ public class boj11654 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int ASCII = br.readLine().charAt(0);
+        int askii = br.readLine().charAt(0);
 
-        System.out.println(ASCII);
+        System.out.println(askii);
     }
 }
