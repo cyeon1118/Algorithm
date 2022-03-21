@@ -15,7 +15,7 @@ public class boj5596 {
 
         int T = 0;
         st = new StringTokenizer(br.readLine());
-        for (int j = 0; j < 4; j++)  {
+        for (int j = 0; j < 4; j++) {
             T += Integer.parseInt(st.nextToken());
         }
 
