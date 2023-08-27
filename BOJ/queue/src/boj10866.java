@@ -18,6 +18,7 @@ public class boj10866 {
 
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
+
             switch (st.nextToken()) {
                 case "push_front":
                     push_front(Integer.parseInt(st.nextToken()));
